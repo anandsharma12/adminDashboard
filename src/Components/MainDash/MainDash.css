@@ -1,0 +1,92 @@
+.MainDash{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+.heading{
+    margin-top:1rem;
+}
+.heading>p{
+    margin-bottom: 0;
+    color: rgba(40, 40, 208);
+}
+.heading>h2{
+    font-size: 1.5rem;
+}
+
+/* cards */
+.cards{
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    gap: 2rem;
+    padding-top: 3rem;
+}
+.cards p{
+    opacity: 0.4;
+}
+.cards>h2{
+    margin-bottom: 0.5rem;
+
+}
+p{
+    margin-bottom: 0 !important;
+}
+.cards hr{
+    color: blue;
+    opacity: 5.25;
+    width: 10rem;
+    
+}
+
+/* graph */
+.graph{
+    display: grid;
+    grid-template-rows: 19rem 15rem;
+}
+/* .graph>.secGraph> p{
+    color: gray;
+} */
+
+h5{
+    margin-bottom: 0;
+}
+
+.graphDetails{
+    display: grid;
+    grid-template-columns: 13rem 25rem;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 5rem 8rem;
+    margin-top: 1.5rem;
+}
+.secGraph p:first-of-type{
+    opacity: 0.4;
+}
+.info p:first-of-type{
+    font-weight: 500;
+    
+    opacity: 1;
+}
+.detail2{
+    display: grid;
+    grid-template-columns: 9rem 7rem 9rem;
+
+}
+.radial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.radialiInfo{
+    display: grid;
+    grid-template-rows: 5rem 2rem;
+    text-align: center;
+}
+.radialiInfo p:last-child{
+    opacity: 1;
+}

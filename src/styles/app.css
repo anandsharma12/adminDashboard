@@ -1,0 +1,23 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+.App{
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AppGlass{
+    display: grid;
+    height: 98%;
+    width: 98%;
+    border-radius: 1rem;
+    background-color: white;
+    overflow: hidden;
+    grid-template-columns: 4rem 19rem 44rem 23rem;
+}

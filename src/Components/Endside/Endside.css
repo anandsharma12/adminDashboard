@@ -1,0 +1,72 @@
+.Endside{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 3rem;
+}
+.about{
+    display: grid;
+    grid-template-rows: 30rem 19rem;
+}
+.about1{
+    display: grid;
+    grid-template-rows: 16rem 14rem;
+    background-color: rgba(232, 232, 232, 0.486);
+    width: 84%;
+    height: 100%;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-left: 1rem;
+}
+ .about1 p{
+    font-size: 1.3rem;
+    font-weight: 500;
+ }
+
+ .heading1{
+    padding-top: 2rem;
+ }
+ .heading2{
+    padding-top: 4rem;
+ }
+ .aboutDocsInfo{
+    display: grid;
+    grid-template-columns: 11rem 5rem;
+    padding-top: 1rem;
+    gap: 3rem;
+ }
+ .aboutDocsInfo p{
+    font-size: 0.9rem;
+    font-weight: 500;
+ }
+ .about2{
+ 
+   border-left: 3px solid blue;
+   height: 8rem;
+   padding: 1rem;
+   margin-top: 2rem;
+   margin-left: 1rem;
+   
+ }
+ .about2 .para2{
+   font-weight: 700;
+ }
+ .about2 .para1{
+   font-weight: 400;
+ }
+ .about2 .para3{
+   line-height: 2rem;
+ }
+ .about2 .para4{
+   color: rgba(40, 40, 208);
+ }
+ .btn1{
+  margin-left: -1.2rem;
+  margin-top: 1rem;
+ }
+ .aboutDocs p:last-of-type{
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 0.8rem;
+  color:  rgba(40, 40, 208);
+ }
