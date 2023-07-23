@@ -1,6 +1,7 @@
 import React from "react";
 import "../Endside/Endside.css";
 import { IoIosArrowForward } from "react-icons/io";
+import { Slider } from "@mui/material";
 const Endside = () => {
   return (
     <>
@@ -9,11 +10,19 @@ const Endside = () => {
           <div className="about1">
             <div className="aboutInfo">
               <p>Retirement Strategy</p>
-              <div className="heading1">
+              <div className="heading1 ">
                 <h6>Employee Contribution</h6>
+                <div style={{ width: "13rem" }} className="slider">
+                  <Slider color="primary" defaultValue={50} />
+                  <span>78%</span>
+                </div>
               </div>
               <div className="heading2">
                 <h6>Retirement age</h6>
+                <div style={{ width: "13rem" }} className="slider">
+                  <Slider color="primary" defaultValue={50} />
+                  <span>65</span>
+                </div>
               </div>
             </div>
 
